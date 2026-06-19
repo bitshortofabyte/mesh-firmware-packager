@@ -1,0 +1,40 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Dependency directories (if you ever go mod)
+vendor/
+
+# Build outputs
+mesh-fw-packager
+mesh-fw-packager.exe
+
+# Temporary / runtime files
+*.zip
+temp-*
+firmware-pkg-*
+/firmwares
+/firmware-archives
+*.tmp
+
+# Logs and debug
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
